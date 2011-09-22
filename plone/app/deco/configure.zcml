@@ -34,6 +34,14 @@
         provides="Products.GenericSetup.interfaces.EXTENSION"
         />
     
+    <genericsetup:registerProfile
+        name="acceptance"
+        title="Deco acceptance tests setup"
+        directory="profiles/acceptance"
+        description='Selenium tests for Deco editor'
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+    
     <!-- BBB profile -->
     <genericsetup:registerProfile
         name="z_bbb"

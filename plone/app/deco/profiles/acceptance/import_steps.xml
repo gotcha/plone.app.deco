@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<import-steps>
+  <import-step id="plone.app.deco.acceptance-tests"
+               version="1"
+               handler="plone.app.deco.setup_handlers.setupAcceptanceTests"
+               title="Plone Deco acceptance tests">
+  </import-step>
+</import-steps>
